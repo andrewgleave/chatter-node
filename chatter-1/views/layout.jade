@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/normalize.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css')
+  body
+    nav#main-nav
+      ul
+        li
+          a(href="/") Chatter
+        li
+          a(href="/help") Help
+    div#container
+      block content
+    block scripts

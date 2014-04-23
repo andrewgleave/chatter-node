@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h4 Users
+  ul#users
+  h4 Messages
+  ul#messages
+  form#chat-form(action="" method="post")
+    textarea#chat-box(autofocus)
+    input(type="submit", value="Send!")
+
+block scripts
+  script(src="/socket.io/socket.io.js")
+  script(src='/javascripts/client.js')
