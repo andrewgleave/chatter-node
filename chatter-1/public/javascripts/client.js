@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
     
     //Socket Events
-    var socket = io.connect('http://127.0.0.1:3000');
+    var socket = io.connect('/');
     socket.on('connect', function() {
         var name = prompt('What\'s your name?').trim();
         if(name.length > 1) {
