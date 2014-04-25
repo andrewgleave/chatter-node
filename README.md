@@ -3,7 +3,7 @@
 A simple demo project to introduce Node, Express and Socket.io to new users. These apps are designed to be used during the talk so are not heavily commented.
 
 * `chatter-0` - initial stub implementation
-* `chatter-1` - finished example
+* `chatter-1` - complete example
 
 ###Requirements
 
